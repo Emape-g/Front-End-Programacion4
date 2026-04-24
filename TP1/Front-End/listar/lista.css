@@ -1,0 +1,53 @@
+/* lista.css */
+body { 
+    font-family: sans-serif; 
+    padding: 20px; 
+    background-color: #f0f2f5; 
+}
+
+.contenedor { 
+    background-color: white; 
+    padding: 20px; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1); 
+}
+
+table { 
+    border-collapse: collapse; 
+    width: 100%; 
+    margin-top: 20px; 
+}
+
+th, td { 
+    border: 1px solid #ccc; 
+    padding: 10px; 
+    text-align: left; 
+}
+
+th { background-color: #e9ecef; }
+
+/* Colores exigidos por el TP */
+.fila-bloqueada { background-color: #fd9f8b; }
+.fila-activa { background-color: #cef8c6; }
+
+.buscador { margin-bottom: 20px; }
+
+input[type="text"] { 
+    padding: 8px; 
+    width: 250px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+}
+
+button { 
+    padding: 8px 15px; 
+    cursor: pointer; 
+    border: none; 
+    border-radius: 4px; 
+    background-color: #007bff; 
+    color: white; 
+}
+
+button:hover { 
+    background-color: #0056b3; 
+}
